@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GetCourseDetailsResponse>
+<GetCourseDetailsResponse xmlns="http://www.formation.uvs.edu.sn/Courses" 
+xsi:schemaLocation="http://www.formation.uvs.edu.sn/Courses  course-details.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLShema-instance">
 	<courseDetails>
-		<id>12</id>
+		<id>Course1</id>
 		<nomCours>Architecture Orientee Service et Entreprise</nomCours>
 		<description>Parcours a la decouverte du service SOAP et REST</description>
 	</courseDetails>
